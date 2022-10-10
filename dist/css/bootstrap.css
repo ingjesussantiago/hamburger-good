@@ -8409,12 +8409,18 @@ textarea.form-control-lg {
 .pos1 {
   position: relative; }
 
-.pos2, .pos3 {
+.pos2, .pos3, .pos4 {
   position: absolute;
   left: 100%;
   top: 20%; }
 
 .pos3 {
+  font-weight: bolder;
+  font-size: 200%;
+  left: 80%;
+  top: 70%; }
+
+.pos4 {
   font-weight: bolder;
   font-size: 200%;
   left: 80%;
