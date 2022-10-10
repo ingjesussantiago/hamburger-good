@@ -8409,7 +8409,7 @@ textarea.form-control-lg {
 .pos1 {
   position: relative; }
 
-.pos2, .pos3, .pos4 {
+.pos2, .pos3 {
   position: absolute;
   left: 100%;
   top: 20%; }
@@ -8421,10 +8421,11 @@ textarea.form-control-lg {
   top: 70%; }
 
 .pos4 {
+  position: absolute;
+  left: 74%;
+  top: 51%;
   font-weight: bolder;
-  font-size: 200%;
-  left: 75%;
-  top: 70%; }
+  font-size: 200%; }
 
 .moto {
   background-image: url(../../assets/img/moto1.png);
