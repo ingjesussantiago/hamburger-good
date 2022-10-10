@@ -8415,10 +8415,14 @@ textarea.form-control-lg {
   top: 20%; }
 
 .pos3 {
-  left: 92%;
-  top: 80%;
   font-weight: bolder;
-  font-size: 200%; }
+  font-size: 200%;
+  left: 80%;
+  top: 100%; }
+
+.moto {
+  background-image: url(../../assets/img/moto1.png);
+  background-size: cover; }
 
 @font-face {
   font-family: "titulotres";
