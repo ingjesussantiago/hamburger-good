@@ -8440,3 +8440,14 @@ textarea.form-control-lg {
   font-family: "titulotres";
   color: #1f1d1d;
   font-size: 1.2rem; }
+
+.logoanimado {
+  animation: animacion 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; }
+
+@keyframes animacion {
+  from {
+    transform: translate(500%); }
+  to {
+    transform: translate(0%); } }
