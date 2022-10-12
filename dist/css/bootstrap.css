@@ -8422,10 +8422,25 @@ textarea.form-control-lg {
 
 .pos4 {
   position: absolute;
-  left: 72%;
+  left: 65%;
   top: 45%;
   font-weight: bolder;
   font-size: 200%; }
+
+.pos5 {
+  position: absolute;
+  width: 100px !important;
+  height: 105px !important;
+  left: 100%;
+  top: 0%;
+  font-weight: bolder;
+  font-size: 200%; }
+
+.paquete {
+  background-image: url(../../assets/img/paquete.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; }
 
 .moto {
   background-image: url(../../assets/img/moto1.png);
