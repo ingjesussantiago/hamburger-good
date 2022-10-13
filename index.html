@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="./assets/iconos/bootstrap-icons-1.9.1/bootstrap-icons-1.9.1/bootstrap-icons.css">
     <!-- <link rel="stylesheet" href="./dist/css/Estilo.css"> -->
 </head>
-<body class="grid">
+<body class="grid bodyoceano">
   <header>
-        <nav class="navbar navbar-expand-lg page">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand titulo " href="#">
                   <img class="logoanimado" src="./assets/img/hamburguesa.png" alt="Bootstrap" width="auto" height="45">The Good Burguer
@@ -34,28 +34,57 @@
         </nav>
     
   </header>
-   <main class="container-fluid p-4 flex row bgfondo justify-content-evenly gap-4">
-            
-          <div class="col-lg-4 col-md-6 col-ms-12 tarjeta5 rounded-4 p-2 moto"> 
-            <div class="col-10 flex pos1 ">
-              <h1 class="titulotres text-center text-white py-2">¿Tienes Hambre? </h1> 
-              <h4 class=" col-9 titulotres text-center text-white">¡Nosotros te la llevamos a Domicilio! Solo tienes que escoger y llamar</h4>
-              <!-- <img class="rounded-circle bg-white p-1" src="./assets/img/moto.png" alt="" srcset="" width="75" height="70"> -->
-              <h4 class="text-white pos4 p-4 ">$15</h4>  
-             </div >         
-            </div>
-            
-      
+   <div class="ocean">
+      <div class="wave"></div>
+      <div class="wave"></div>
+    </div>
+   <main class="container-fluid py-2 flex row  pageprincipal">
+    <!-- <div><h1 class="text-black text-center">Bienvenidos a nuestra pagina</h1>
+    <h3 class="text-black text-center">aquí encontaras los Siguientes productos:</h3></div> -->
+    
+    <div class="list-group col-lg-3 justify-content-evenly px-3 flex-column tarjeta3">
+      <a href="./pages/Hamburguesa.html" class="list-group-item list-group-item-action " aria-current="true">
+        <div class="d-flex w-100 justify-content-between">
+          <h4 class="mb-1">Hamburguesas</h4>
+        </div>     
+        <div class="d-flex w-100 justify-content-between">
+          <h6 class="mb-1">Hamburguesa clasica</h6>
+          <small>$55</small>
+         </div>
+        <div class="d-flex w-100 justify-content-between">
+          <h6 class="mb-1">Hamburguesa Hawaiana</h6>
+          <small>$65</small>
+         
+        </div>
+        <div class="d-flex w-100 justify-content-between">
+          <h6 class="mb-1">Hamburguesa Especial</h6>
+          <small>$80</small>
+         
+        </div>
+      </a>
+      <a href="./pages/paquetes.html" class="list-group-item list-group-item-action">
+        <div class="d-flex w-100 justify-content-between">
+          <h5 class="mb-1">Paquetes de Hamburguesas</h5>
+          <small class="text-muted"></small>
+        </div>
+        <p class="mb-1">pareja</p>
+        <p class="mb-1">trio</p>
+        <small class="text-muted"></small>
+      </a>
+    
+</div>
+ 
+                           
    </main>
-<footer class= " container-fluid page" >
-  <div class="d-flex flex-column flex-sm-row justify-content-between py-2 align-items-lg-center">
-    <ul class="list-unstyled d-flex justify-content-evenly col-lg-5 col-md-6 col-ms-12 gap-5 text-md-center">
-      <li><a class="nav-link active text-center" aria-current="page" href="https://api.whatsapp.com/send?phone=529211446574&amp;text=Hola!%20En%20que%20te%20podemos%20ayudar!"><i class="bi bi-whatsapp"></i><br>Pedidos y entregas Aqui</a></li>
+<footer class= " container-fluid page " >
+  <div class="d-flex flex-column flex-sm-row justify-content-between align-items-lg-center">
+    <ul class="list-unstyled d-flex justify-content-evenly col-lg-5 col-md-5 col-ms-3 gap-5 text-md-center">
+      <li><a class="nav-link active text-center" aria-current="page" href="https://api.whatsapp.com/send?phone=529211446574&amp;text=Hola!%20En%20que%20te%20podemos%20ayudar!"><i class="bi bi-whatsapp"></i>  Pedidos y entregas Aqui</a></li>
       <!-- <li><a class="nav-link active" aria-current="page" href="#"><i class="bi bi-twitter"></i>Twitter</a></li>
         <li><a class="nav-link active" aria-current="page" href="#"><i class="bi bi-instagram"></i>Instagram</a></li>
         <li><a class="nav-link active" aria-current="page" href="#"><i class="bi bi-facebook"></i>Facebook</a></li> -->
       </ul>
-      <p class="col-lg-7 col-md-6 col-ms-12 text-center">&copy; 2022 The good Burguer, Inc. All rights reserved.</p>
+      <p class="col-lg-7 col-md-7 col-ms-9 text-center text-blue ">&copy; 2022 The good Burguer, Inc. All rights reserved.</p>
   </div>
 </footer>
     <script src="./assets/js/bootstrap.min.js"></script>
