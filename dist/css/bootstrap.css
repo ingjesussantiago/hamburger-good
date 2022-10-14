@@ -8449,6 +8449,26 @@ textarea.form-control-lg {
 .pageprincipal {
   height: 75vh; }
 
+.toque {
+  position: absolute;
+  left: 60%;
+  bottom: 15%;
+  width: 15%;
+  height: 65%;
+  z-index: 2; }
+
+.index1 {
+  z-index: 1; }
+
+.imgdos, .imgdosb {
+  position: absolute;
+  height: 10%;
+  width: auto;
+  top: 30%; }
+
+.imgdosb {
+  left: 70%; }
+
 @font-face {
   font-family: "titulotres";
   src: url("../../assets/font/Luckiest_Guy/LuckiestGuy-Regular.ttf"); }
